@@ -1,0 +1,19 @@
+#main-holder {
+    text-align: center;
+}
+.logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+    
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+}
+.form {
+    text-align: center;
+}
+

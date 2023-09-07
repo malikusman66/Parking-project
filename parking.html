@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parking Slot</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main id="main-holder">
+      <img src="/images/parking logo.avif" class="logo" />
+      <h1 class="header">Login</h1>
+      <!-- <hr> -->
+
+      <div class="form">
+        <form id="login-form">
+          <input
+            type="text"
+            name="username"
+            class="form-control"
+            id="username-field"
+            class="login-form-field"
+            placeholder="Username"
+            required
+          /><br />
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            id="password-field"
+            class="login-form-field"
+            placeholder="Password"
+            required
+          /><br />
+          <input type="checkbox" onclick="showpassword()" />
+          <label for="showpassword"> Show Password </label>
+          <br />
+          <input
+            type="submit"
+            value="Login"
+            class="btn btn-primary btn-block mb-4"
+            id="login-form-submit"
+          />
+        </form>
+      </div>
+
+      <script src="parking.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"
+      ></script>
+    </main>
+  </body>
+</html>

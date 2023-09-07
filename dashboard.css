@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+}
+.usman {
+  text-align: right;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(76, 121, 106);
+  text-align: center;
+  cursor: pointer;
+  margin-left: 0px;
+}
+h2 {
+  margin-top: 25px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 2px solid black;
+}
+
+#login-form-submit {
+  margin-top: 30px;
+  text-align: center;
+}
+.time-date {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.parking-slot {
+  width: 100px;
+  height: 60px;
+  background-color: #6dd177;
+  border: 1px solid #000;
+  margin: 20px;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+
+  font-size: 14px;
+  float: left;
+}
+
+#form-fill {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+}
